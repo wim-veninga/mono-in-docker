@@ -1,6 +1,6 @@
 #DOCKER-VERSION 0.9.1
 
-FROM    wimperdt/dockertest
+FROM    vlesierse/mono
 
 ADD     . /src
 
