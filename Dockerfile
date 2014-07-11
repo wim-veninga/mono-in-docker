@@ -2,7 +2,7 @@
 
 FROM    vlesierse/mono
 
-ADD     . /src
+ADD     ./src
 
 RUN     mcs /src/Hello.cs
 CMD     ["mono", "/src/Hello.exe"]
